@@ -21,5 +21,3 @@ for i in range(1, num+1):
   han(i)
   
 print(count)
-
-print()
