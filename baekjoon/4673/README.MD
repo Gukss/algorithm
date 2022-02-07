@@ -48,4 +48,4 @@ for i in a:
 > list2에 셀프넘버가 아닌, 생성자가 있는 num을 추가해 준다.
 
 > `a = [x for x in list1 if x not in list2]`  
-> a에 list1에서 list2를 뺀 리스트, list1에서 list2에 없는 것만 a에 저장한다. (리스트 빼기, 리스트 차집합)
+> a에 list1에서 list2를 뺀 리스트, list1에서 list2에 없는 것만 a에 저장한다. (리스트 빼기, 리스트 차집합, 리스트 컴프리헨션)
