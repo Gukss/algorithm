@@ -1,7 +1,5 @@
-inputNum = input()
-num = int(inputNum)
+num = int(input())
 count = 0
-
 
 def han(num):
   global count
