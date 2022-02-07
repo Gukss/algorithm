@@ -4,8 +4,7 @@ for i in range(10000):
 
 list2 = []
 
-
-def selfNum(list1, list2, n):
+def selfNum(list2, n):
     num = n
     for i in range(len(str(n))):
         num += (n % 10)
@@ -15,9 +14,8 @@ def selfNum(list1, list2, n):
     list2.append(num)
     return
 
-
 for i in range(10000):
-    selfNum(list1, list2, i+1)
+    selfNum(list2, i+1)
 
 a = [x for x in list1 if x not in list2]
 for i in a:
