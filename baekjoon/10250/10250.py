@@ -16,6 +16,3 @@ for i in range(t):
   y = str(y)
   result = y+x
   list.append(result)
-
-for i in range(t):
-  print(list[i])
