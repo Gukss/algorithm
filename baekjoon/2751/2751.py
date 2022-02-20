@@ -1,8 +1,10 @@
-size = eval(input())
-list = []
-for i in range(size):
-    num = eval(input())
-    list.append(num)
-list.sort()
-for i in list:
-    print(i)
+import sys
+
+n = int(input())
+numbers = []
+
+for i in range(n):
+  numbers.append(int(sys.stdin.readline()))
+
+for i in sorted(numbers):
+  sys.stdout.write(str(i) + "\n")
